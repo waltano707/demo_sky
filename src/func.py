@@ -13,3 +13,7 @@ def calculate_taxes(prices: list[float], tax_rate: float) -> list[float]:
         taxed_prices.append(price + tax)
 
     return taxed_prices
+
+
+if __name__ == '__main__':
+    calculate_taxes()
