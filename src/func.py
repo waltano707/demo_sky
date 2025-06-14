@@ -1,5 +1,10 @@
 def calculate_taxes(prices: list[float], tax_rate: float) -> list[float]:
-    """Функция вычисляет стоимость товаров с учётом налога."""
+    """
+    Функция вычисляет стоимость товаров с учётом налога.
+    prices -----
+    tax_rate -----
+
+    """
 
     if tax_rate < 0:
         raise ValueError('Неверный налоговый процент')
