@@ -5,7 +5,5 @@ BASE INFO
 print("hi Marry")
 
 
-"""
-BASE INFO
-"""
-print("hi Alex")
+"""print main"""
+print("hi Jow")
